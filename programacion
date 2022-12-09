@@ -1,0 +1,29 @@
+Main {
+ int resultado = 0;
+ resultado= suma (a:2, b:1, c:4)
+ }
+ 
+ int suma(int a, int b, int c) {
+  return a+b+c;
+ }
+ 
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        coche mi.coche=newCoche();
+        mi.coche.Anadirpuerta();
+        mi.coche.Anadirpuerta();
+        System.out.println(mi.coche.puertas);
+
+    }
+      //write your code here
+        class coche {
+          int puertas = 4;
+
+          void Anadirpuerta() {
+              this.puertas + 1;
+          }
+      }
+ 
